@@ -11,13 +11,13 @@ public class Store {
 		char planC = 'C';	// plans
 		char planD = 'D';	// plans
 		
-		System.out.println("Customer Name: " + customerName);
-		System.out.println("Brand Name: " + brand);
-		System.out.println("Processor Speed: " + processor + "GHz");
-		System.out.println("Ram Capacity: " + ram + "GB");
-		System.out.println("Hard Disk: " + hardDisk + "GB");
-		System.out.println("Monitor Size: " + monitor + "inch");
-		System.out.println("Plans: " + planA +","+ planB+"," + planC+","+ planD);
+		System.out.println("Customer Name: " + customerName + " (Data Type: String)");
+		System.out.println("Brand Name: " + brand + " (Data Type: String)");
+		System.out.println("Processor Speed: " + processor + "GHz" + " (Data Type: double)");
+		System.out.println("Ram Capacity: " + ram + "GB" + " (Data Type: byte)");
+		System.out.println("Hard Disk: " + hardDisk + "GB" + " (Data Type: short)");
+		System.out.println("Monitor Size: " + monitor + "inch"+ " (Data Type: byte)");
+		System.out.println("Plans: " + planA +","+ planB+"," + planC+","+ planD + " (Data Type: char)");
 	}
 
 }
